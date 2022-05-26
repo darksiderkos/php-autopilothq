@@ -1,25 +1,13 @@
 {
-    "name": "picr/php-autopilothq",
+    "name": "darksiderkos/php-autopilothq",
     "type": "library",
     "description": "PHP wrapper for interacting with the AutopilotHQ API.",
-    "homepage": "https://github.com/finicprint/php-autopilothq",
+    "homepage": "https://github.com/darksiderkos/php-autopilothq",
     "keywords": ["picr", "autopilothq", "autopilot"],
     "license": "MIT",
-    "authors": [
-        {
-            "name": "John O",
-            "email": "ruskiyos@gmail.com"
-        }
-    ],
     "require": {
-        "php": ">=5.5.9",
-        "guzzlehttp/guzzle": "~6.0"
-    },
-    "require-dev": {
-        "codeception/codeception": "~2.1",
-        "codeception/aspect-mock": "dev-master",
-        "phpunit/phpunit": "~5.7",
-        "phake/phake": "~2.3"
+        "php": ">=7.1",
+        "guzzlehttp/guzzle": "^7.4"
     },
     "suggest": {
         "vlucas/phpdotenv": "Allows secrets to be loaded from .env files."
